@@ -1,20 +1,75 @@
-# Getting Started with Create React App
+# React Product Card Checkpoint
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project is a simple React application built as part of a React checkpoint.
+It displays a product card containing the product image, name, price, and description using reusable React components and React Bootstrap.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* React functional components
+* JSX rendering
+* Product data stored in a separate JSON object
+* React Bootstrap card layout
+* Conditional rendering of a greeting message
+* Conditional rendering of a profile image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+src
+│
+├── App.js
+├── product.js
+│
+├── images
+│   ├── nike-airmax.jpg
+│   └── abood.jpg
+│
+└── components
+    ├── Name.js
+    ├── Price.js
+    ├── Description.js
+    └── Image.js
+```
 
-### `npm test`
+## Technologies Used
+
+* React
+* React Bootstrap
+* JavaScript
+* CSS
+
+## How to Run the Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/product-card.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the development server
+
+```
+npm start
+```
+
+The application will run on:
+
+```
+http://localhost:3000
+```
+
+## Author
+
+Abood Jamal
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
