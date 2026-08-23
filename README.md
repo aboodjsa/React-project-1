@@ -1,18 +1,18 @@
 # React Product Card Checkpoint
 
-## Project Description
+## Project Overview
 
-This project is a simple React application built as part of a React checkpoint.
-It displays a product card containing the product image, name, price, and description using reusable React components and React Bootstrap.
+This project is a basic React application designed to be created as a part of the React checkpoint.
+This application renders the product card which contains information about the product image, name, price, and description through React components and React Bootstrap.
 
 ## Features
 
 * React functional components
 * JSX rendering
-* Product data stored in a separate JSON object
-* React Bootstrap card layout
-* Conditional rendering of a greeting message
-* Conditional rendering of a profile image
+* Product information stored in a JSON object
+* React Bootstrap Card
+* Conditionally rendered greeting message
+* Conditionally rendered profile image
 
 ## Project Structure
 
@@ -48,7 +48,7 @@ src
 git clone https://github.com/your-username/product-card.git
 ```
 
-2. Install dependencies
+2. Install the dependencies
 
 ```
 npm install
@@ -66,8 +66,6 @@ The application will run on:
 http://localhost:3000
 ```
 
-## Author
 
-Abood Jamal
 
 
